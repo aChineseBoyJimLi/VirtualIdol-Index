@@ -94,15 +94,12 @@ h3 {
     color: #fff;
     background: transparent;
     font-family:'Source-Han-Ligh15fa7d29531ea44';
-    font-size: 25px;
+    font-size: 20px;
+    padding: 13px 20px 13px 20px;
 }
 .btn-transparent-white:hover{
-    border:2px solid #fff;
-    border-spacing: 20px;
     color: #408ee7;
-    background: #fff;
-    font-family:'Source-Han-Ligh15fa7d29531ea44';
-    font-size: 25px;
+    background: rgba(0,0,0,0.5);
 }
 .btn-transparent-prime{
     border:2px solid #5b9eeb;
@@ -257,8 +254,8 @@ background: linear-gradient(rgb(0, 0, 0) , rgb(80, 80, 80));
 .affix {
 	animation: 1s ease 0s normal both 1 running slideInDown;
 	background: #0068b7; /* fallback for old browsers */
-background: -webkit-linear-gradient(-120deg, #0068b7 , #b6d6ee); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(-120deg, #0068b7 , #b6d6ee); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: -webkit-linear-gradient(-120deg, #0068b7 , #40a4ef); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(-120deg, #0068b7 , #40a4ef); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	padding: 0.75em 0;
 	position: fixed;
 	z-index: 1000;
@@ -538,7 +535,7 @@ background: linear-gradient(120deg, #0068b7 , #40a4ef); /* W3C, IE 10+/ Edge, Fi
 
 /*-------------- Contact section  --------------*/
 #contact-sec {
-  background: url('../img/contact-bg.jpg') 50% 0 repeat-y fixed;
+  /* background: url('../../img/contact-bg.jpg') 50% 0 repeat-y fixed; */
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -575,15 +572,12 @@ background: linear-gradient(120deg, #0068b7 , #40a4ef); /* W3C, IE 10+/ Edge, Fi
 	font-size: 22px;
 	color: #fff;
 }
-#contact-sec .btn-transparent-white {
-	font-weight: 600;
-	font-size: 16px;
-	padding: 5px 0px;
+/* #contact-sec .btn-transparent-white {
+	padding: 30px 10px;
 	text-transform: uppercase;
-	width: 200px;
+	width: 500px;
 	border-width: 1px;
-	margin-top: 60px;
-}
+} */
 
 /*-------------- Footer section  --------------*/
 footer {
