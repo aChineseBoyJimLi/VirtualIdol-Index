@@ -75,7 +75,7 @@ h2 small {
 }
 h3 {
     font-weight: 700;
-  color: #408ee7;
+  color: #0e7acc;
   font-size: 26px;
   line-height: 26px;
   letter-spacing: 1px;
@@ -95,21 +95,37 @@ h3 {
     background: transparent;
     font-family:'Source-Han-Ligh15fa7d29531ea44';
     font-size: 20px;
-    padding: 13px 20px 13px 20px;
+    padding: 5px 25px 5px 25px;
+    font-weight: 100;
 }
 .btn-transparent-white:hover{
-    color: #408ee7;
-    background: rgba(0,0,0,0.5);
+    border:1px solid #fff;
+    color: rgb(97, 93, 93);
+    background: #fff;
+}
+
+.btn-login{
+  margin-right:15px;
+  background: #3660e9;
+  border:1px solid #3660e9;
+}
+.btn-register{
+  margin-left: 15px;
+}
+.btn-submit:hover{
+  color:#fff;
+  background: #3660e9;
+  border:1px solid #3660e9;
 }
 .btn-transparent-prime{
-    border:2px solid #5b9eeb;
-    color: #5b9eeb;
+    border:2px solid #3660e9;
+    color: #3660e9;
     background: transparent;
 }
 .btn-transparent-prime:hover{
     border:2px solid #fff;
     color: #fff;
-    background: #5b9eeb;
+    background: #3660e9;
 }
 
 p {
@@ -182,11 +198,8 @@ section {
 }
 
 #banner .gradient-overlay {
-  
-/* background: #0068b7; */
-background: -webkit-linear-gradient(rgb(0, 0, 0) , rgb(80, 80, 80));
-background: linear-gradient(rgb(0, 0, 0) , rgb(80, 80, 80));
-  opacity: 0.8;      
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.9), rgb(80, 80, 80, 0.8));
+  background: linear-gradient(rgb(0, 0, 0, 0.9) , rgb(80, 80, 80, 0.8));
   position: absolute;
   top: 0;
   width: 100%;
@@ -254,8 +267,8 @@ background: linear-gradient(rgb(0, 0, 0) , rgb(80, 80, 80));
 .affix {
 	animation: 1s ease 0s normal both 1 running slideInDown;
 	background: #0068b7; /* fallback for old browsers */
-background: -webkit-linear-gradient(-120deg, #0068b7 , #40a4ef); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(-120deg, #0068b7 , #40a4ef); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(-120deg, #0068b7 , #40a4ef); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(-120deg, #0068b7 , #40a4ef); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	padding: 0.75em 0;
 	position: fixed;
 	z-index: 1000;
@@ -280,12 +293,7 @@ background: linear-gradient(-120deg, #0068b7 , #40a4ef); /* W3C, IE 10+/ Edge, F
     box-shadow: 0 0 21px rgba(0, 0, 0, 0.14);
 }
 #todo .feature-thumb:hover {
-  background-color: #d8d8d8;
-  position: relative;
-  padding: 40px;
-  margin-top: 32px;
-  text-align: center;
-    box-shadow: 0 0 21px rgba(0, 0, 0, 0.14);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
 }
 #todo .feature-icon {
   
@@ -313,11 +321,9 @@ background: linear-gradient(-120deg, #0068b7 , #40a4ef); /* W3C, IE 10+/ Edge, F
     font-weight: 300;
 }
 
-
-
 /*-------------- Video section  --------------*/
 #video-sec {
-  background: url('../../img/video-bg.jpg') 50% 0 repeat-y fixed;
+  background: url('../../img/img_play_bg.png') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -428,8 +434,8 @@ background: linear-gradient(-120deg, #0068b7 , #40a4ef); /* W3C, IE 10+/ Edge, F
 
 #hotels .gallery-thumb .gallery-overlay {
   background: #0068b7; /* fallback for old browsers */
-background: -webkit-linear-gradient(120deg, #0068b7 , #40a4ef); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(120deg, #0068b7 , #40a4ef); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(120deg, #0068b7 , #40a4ef); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(120deg, #0068b7 , #40a4ef); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   position: absolute;
   top: 0;
   right: 0;
@@ -535,7 +541,7 @@ background: linear-gradient(120deg, #0068b7 , #40a4ef); /* W3C, IE 10+/ Edge, Fi
 
 /*-------------- Contact section  --------------*/
 #contact-sec {
-  /* background: url('../../img/contact-bg.jpg') 50% 0 repeat-y fixed; */
+  background: url('../../img/4.jpg') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center center;
@@ -543,7 +549,7 @@ background: linear-gradient(120deg, #0068b7 , #40a4ef); /* W3C, IE 10+/ Edge, Fi
 }
 
 #contact-sec .overlay {
-  background: rgba(0,0,0,0.7);
+  background: rgba(0,0,0,0.8);
   width: 100%;
   height: 100%;
   position: absolute;
@@ -572,18 +578,13 @@ background: linear-gradient(120deg, #0068b7 , #40a4ef); /* W3C, IE 10+/ Edge, Fi
 	font-size: 22px;
 	color: #fff;
 }
-/* #contact-sec .btn-transparent-white {
-	padding: 30px 10px;
-	text-transform: uppercase;
-	width: 500px;
-	border-width: 1px;
-} */
+
 
 /*-------------- Footer section  --------------*/
 footer {
 	background: #0068b7; /* fallback for old browsers */
-background: -webkit-linear-gradient(-120deg, #0068b7 , #40a4ef); /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(-120deg, #0068b7 , #40a4ef); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -webkit-linear-gradient(120deg, #0068b7 , #40a4ef); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(120deg, #0068b7 , #40a4ef); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 	float: left;
 	width: 100%;
 	color: #fff;
@@ -689,11 +690,7 @@ footer .love-text{
     padding: 0px;
   }
 
-    .navbar-collapse{
-    background: #0068b7; /* fallback for old browsers */
-    background: -webkit-linear-gradient(120deg, #0068b7 , #40a4ef); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(120deg, #0068b7 , #40a4ef); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
+    
 }
 
 @media (max-width: 650px) {
