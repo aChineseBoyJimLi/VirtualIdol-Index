@@ -1,0 +1,74 @@
+.logo{
+    width:135px;
+    height:25px;
+    margin-top: -4px;
+    margin-right: 0px;
+    text-align: center !important;
+    margin-left: 10px !important;
+}
+
+.container div h1 {
+    font-size: 70px;
+    color : #fff;
+    font-family:"Source-Han-Ligh15fedaecca1ea44";
+    letter-spacing: 8px;
+    text-indent: 8px;
+}
+
+.logan{
+    font-size: 30px !important;
+    color : #fff;
+    font-family:'Source-Han-Ligh15fedaecca1ea44';
+    letter-spacing: 35px;
+    text-indent: 35px;
+    text-align: center !important;
+    margin: 0 auto !important;
+}
+
+
+.updown {
+    z-index: 9;
+    position: relative;
+}
+
+
+.container div h2 {
+    font-size: 40px;
+    color : rgb(91, 158, 235);
+    text-shadow: 1px 1px 3px black;
+    font-family:'Source-Han-Ligh15fedaecca1ea44';
+    letter-spacing: 12px;
+    text-indent: 35px;
+}
+
+.container div h3 {
+    font-size: 20px;
+    color : rgb(91, 158, 235);
+    /* text-shadow: 1px 1px 3px black; */
+    font-family:'微软雅黑';
+    letter-spacing: 6px;
+    text-indent: 6px;
+}
+
+.btn-toIndex{
+    font-family:'Source-Han-Ligh15fedaecca1ea44';
+    font-size: 30px;
+}
+
+.vidol-3d{
+    font-family:'Source-Han-Ligh15fedaecca1ea44' !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+    font-size: 30px;
+    text-indent: 6px !important;
+}
+
+.vidol-3d span{
+    font-family:'Source-Han-Ligh15fedaecca1ea44' !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+    font-size: 20px;
+    text-indent: -4px;
+}
+
+
