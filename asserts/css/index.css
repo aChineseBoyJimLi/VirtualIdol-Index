@@ -38,18 +38,22 @@
     font-weight: 600;
     color:#0e7acc;
     letter-spacing: 8px;
-    text-indent: 35px;
     display: inline;
     border-bottom: solid 6px #0e7acc;
+    border-top: solid 6px #0e7acc;
     font-weight: 800 !important;
 }
 
 .container div h3 {
     font-size: 20px;
     color : rgb(91, 158, 235);
-    font-family:'微软雅黑';
+    font-family:'Source-Han-Ligh15fedaecca1ea44';
     letter-spacing: 6px;
     text-indent: 6px;
+}
+
+.container div h2 {
+    font-family:'Source-Han-Ligh15fedaecca1ea44';
 }
 
 .btn-toIndex{
